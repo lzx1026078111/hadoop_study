@@ -15,7 +15,7 @@ import random
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--count', type=int, default=10000)
+parser.add_argument('--count', type=int, default=100000)
 
 if __name__ == '__main__':
     t = parser.parse_args()
